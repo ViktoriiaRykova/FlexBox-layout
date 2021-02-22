@@ -1,0 +1,180 @@
+﻿body {
+    min-width: 900px;
+    margin: 0;
+    padding: 0;
+}
+/*BUTTONS*/
+.btn {
+    color: #ffffff;
+    background-color: #831f1f;
+    font-size: 12px;
+    padding: 10px;
+    width: 100px;
+    margin: 0 0 20px 10px;
+    border: none;
+}
+
+.btn_strip {
+    color: #ffffff;
+    background-color: #831f1f;
+    margin: 5px 20px 15px 20px;
+ 
+    border: none;
+}
+    .btn .btn_strip:hover {
+        color: #808080;
+    }
+/*HEADER*/
+header {
+    background-image: url(../img/car.jpg);
+    background-size: 100%;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}     
+    .container {
+        display: flex;
+        align-items: flex-end;
+        -moz-box-orient: horizontal;
+        -webkit-box-orient: horizontal;
+        box-orient: horizontal;
+    }
+    
+.post_text {
+    background-color: #ffffff;
+    opacity: 0.7;
+    width: 100%;
+    height: 90px;
+   
+    display: flex;
+    align-items: flex-end;
+    -moz-box-orient: horizontal;
+    -webkit-box-orient: horizontal;
+    box-orient: horizontal;
+    margin-top: 400px;
+}
+header .container .post_text .text_header {
+    width: 1400px;
+    margin: 20px;
+}
+header .container .post_text .button{
+    width: 100px;
+    
+}
+ .strip_black {
+    width: 100%;
+    background-color:#000000;
+    height: 20px;
+    
+}
+/*SECTION*/
+section {
+   
+    display: flex;
+    align-items: flex-end;
+    -moz-box-orient: horizontal;
+    -webkit-box-orient: horizontal;
+    box-orient: horizontal;
+}
+
+    .block h2 {
+        color: #831f1f;
+        font-size: 24px;
+        text-align: left;
+        margin: 30px 30px 10px 30px;
+    }
+.block h3 {
+    color: #808080;
+    font-size: 18px;
+    text-align: left;
+    margin: 0 30px 30px;
+}
+section .block .block1 {
+    display: flex;
+    align-items: flex-end;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    margin: 0 30px;
+}
+    section .block .block1 .in_block1 {
+        margin-top: 30px;
+        display: flex;
+        align-items: flex-end;
+        -moz-box-orient: horizontal;
+        -webkit-box-orient: horizontal;
+        box-orient: horizontal;
+    }
+    section .block .block1 .img_car img {
+        width: 300px;
+        height: 200px;
+    }
+    section .block .block1 .info_car {
+        text-align: left;
+        font-size: 18px;
+        margin: 0 50px;
+    }
+section .block .strip_red {
+    width: 95%;
+    background-color: #831f1f;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    -moz-box-orient: horizontal;
+    -webkit-box-orient: horizontal;
+    box-orient: horizontal;
+    margin: 20px 30px;
+}
+
+/*SECTION ASIDE*/
+
+aside {
+    background-color: #f3c892;
+    width: 500px;
+    align-self: stretch;
+    padding: 30px 30px 30px 50px;
+    margin-top: 10px;
+}
+    aside .aside_block {
+        background-color: #f3c892;
+        width: 400px;
+       
+    }
+        aside .aside_block .form {
+            display: flex;
+            -moz-box-orient: horizontal;
+            -webkit-box-orient: horizontal;
+            box-orient: horizontal;
+            width: 200px;
+        }
+label:after {
+    content: " *";
+}
+    section aside .aside_block h3 {
+        color: #831f1f;
+        font-size: 18px;
+        text-align: left;
+       
+    }
+
+aside .aside_block p {
+    color: #831f1f;
+    font-size: 12px;
+    margin: 20px;
+    width: 100px;
+}
+/*ASIDE NAVIGATION*/
+section aside nav h3 {
+    color: #831f1f;
+    font-size: 18px;
+    text-align: left;
+}
+aside nav ul li {
+    list-style: none; /* Скрываем маркеры списка */
+    text-indent: -2em;
+}
+li::before {
+    content: '\25ba'; /* Добавляем маркер в шестнадцатеричном формате*/
+    padding-right: 5px; /* Расстояние от маркеров до текста */
+    color: #000000; /* Маркеры красного цвета */
